@@ -31,7 +31,7 @@ Bairro x Faixa_Imóvel = 1:n;
 
 #### Exercício 3
 ##### Resposta:
-Atributos:
+###### Atributos:
 
 Loja = CDLoja, NMLoja, CDPedido;
 
@@ -43,8 +43,7 @@ Produto = CDProduto, NMProduto, VLProduto;
 
 Automóvel = CDAutomovel, MCAutomovel, CDCliente;
 
-
-Relacionamentos:
+###### Relacionamentos:
 
 Loja x Pedido = 1:n;
 
