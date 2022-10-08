@@ -22,4 +22,16 @@ Bairro x Faixa_Imóvel = 1:n;
 
 #### Exercício 3
 ##### Resposta:
+Atributos:
+Loja = CDLoja, NMLoja, CDPedido;
+Pedido = CDPedido, QtPedido, CDProduto, CDLoja, DTPedido;
+Cliente = CDCliente, NMCliente;
+Produto = CDProduto, NMProduto, VLProduto;
+Automóvel = CDAutomovel, MCAutomovel, CDCliente;
+
+Relacionamentos:
+Loja x Pedido = 1:n;
+Pedido x Cliente = 1:n;
+Produto x Pedido = n:n;
+Automóvel x Cliente = 1:n;
 
