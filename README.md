@@ -13,3 +13,13 @@ Cliente x Locação = 1:n;
 #### Exercício 2
 ##### Resposta:
 Vendedor x Imóvel = 1:1;
+Imóvel x Oferta = 1:n;
+Comprador x Oferta = 1:n;
+Imóvel x Estado = n:n;
+Estado x Cidade = 1:n;
+Cidade x Bairro = 1:n;
+Bairro x Faixa_Imóvel = 1:n;
+
+#### Exercício 3
+##### Resposta:
+
