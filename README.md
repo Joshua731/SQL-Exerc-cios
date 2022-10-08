@@ -61,4 +61,5 @@ Automóvel x Cliente = 1:n;
 
 ##### Resposta da letra B:
 
+![MER EX 4 B](https://user-images.githubusercontent.com/88397658/194728810-4e7739f0-2a54-4ad4-93b7-4425def0a68c.png)
 
