@@ -2,6 +2,7 @@
 Lista de resoluções de exercícios do livro "SQL Curso Prático" de Celso Oliveira
 
 ## Parte I
+
 ### Capítulo 2: Projetando bancos de dados
 #### Exercício 1
 ##### Resposta:
@@ -12,6 +13,7 @@ Filme x Categoria = 1:n;
 Locação x Filme = n:n;
 
 Cliente x Locação = 1:n;
+
 
 #### Exercício 2
 ##### Resposta:
@@ -52,4 +54,11 @@ Pedido x Cliente = 1:n;
 Produto x Pedido = n:n;
 
 Automóvel x Cliente = 1:n;
+
+#### Exercício 4
+##### Resposta da letra A:
+![MER EX 4 A](https://user-images.githubusercontent.com/88397658/194727838-04b00a50-e04e-45ad-91b8-2c147bae2e40.png)
+
+##### Resposta da letra B:
+
 
