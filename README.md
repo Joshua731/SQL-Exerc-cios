@@ -43,6 +43,7 @@ Produto = CDProduto, NMProduto, VLProduto;
 
 Automóvel = CDAutomovel, MCAutomovel, CDCliente;
 
+
 Relacionamentos:
 
 Loja x Pedido = 1:n;
