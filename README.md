@@ -67,3 +67,5 @@ Automóvel x Cliente = 1:n;
 ![MER EX 4 C](https://user-images.githubusercontent.com/88397658/194729299-a5e5a6bc-c03d-4932-b29a-fc4580da49af.png)
 
 
+### Capítulo 3: Normalização de dados
+
