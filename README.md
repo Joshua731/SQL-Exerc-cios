@@ -360,3 +360,124 @@ CREATE INDEX vl_oferta_index ON OFERTA
 
 ### Capítulo 5: Incluindo, atualizando e excluindo linhas nas tabelas
 
+#### Resposta do exercício 1:
+
+INSERT INTO ESTADO VALUES ('RS', 'RIO GRANDE DO SUL');
+
+
+INSERT INTO ESTADO VALUES ('ES', 'ESPÍRITO SANTO');
+
+#### Resposta do exercício 2:
+
+INSERT INTO CIDADE VALUES (1, 'PORTO ALEGRE', 'RS');
+
+INSERT INTO CIDADE VALUES (1, 'VITÓRIA', 'ES');
+
+#### Resposta do exercício 3:
+
+INSERT INTO BAIRRO VALUES (1, 'BELÉM NOVO', 1, 'RS'); 
+
+INSERT INTO BAIRRO VALUES (1, 'PRAIA DO CANTO', 1, 'ES'); 
+
+#### Resposta do exercício 4:
+
+INSERT INTO VENDEDOR VALUES (5, 'JOSHUA CAVAZZANI', 'RUA NILO PEÇANHA, 100', 'jo.cvzn1001@gmail.com'); 
+
+INSERT INTO VENDEDOR VALUES (6, 'SOFIA CAVAZZANI', 'RUA NILO PEÇANHA, 112', 'sofis.cvzn@gmail.com');
+
+
+#### Resposta do exercício 5:
+
+INSERT INTO IMOVEL VALUES (7, 5, 1, 1, 'RS', 'Avenida Alberto Bins, 69', 330, 660, 99900, 6);
+
+INSERT INTO IMOVEL VALUES (8, 6, 1, 1, 'ES', 'Rua Flamboyans, 69', 520, 720, 199900, 7);
+
+
+#### Resposta do exercício 6:
+
+
+INSERT INTO COMPRADOR VALUES (5, 'FELIPE CAVAZZANI', 'RUA VENCESLAU BRAZ, 90', 'felipe.cavazzani@outlook.com');
+
+INSERT INTO COMPRADOR VALUES (6, 'MAURICIO CAVAZZANI', 'RUA RUSSIA, 94', 'mauricio.cavazzani@gmail.com');
+
+
+
+#### Resposta do exercício 7:
+
+
+INSERT INTO OFERTA VALUES (5, 7, 88800, '06/09/2019');
+
+INSERT INTO OFERTA VALUES (6, 6, 111100, '22/02/2022');
+
+
+#### Resposta do exercício 8:
+
+UPDATE IMOVEL
+
+SET VLPRECO = VLPRECO * 1.10;
+
+
+#### Resposta do exercício 9:
+
+UPDATE IMOVEL
+
+SET VLPRECO = VLPRECO - (VLPRECO * 0.05)
+
+WHERE CDVENDEDOR = 1;
+
+
+#### Resposta do exercício 10:
+
+UPDATE OFERTA
+
+SET VLOFERTA = VLOFERTA * 1.05
+
+WHERE CDCOMPRADOR = 2;
+
+
+#### Resposta do exercício 11:
+
+UPDATE COMPRADOR
+
+SET NMENDERECO = 'RANANAS, 45'
+
+WHERE CDCOMPRADOR = 3;
+
+
+UPDATE COMPRADOR
+
+SET NMENDERECO = 'RANANAS, 45', ESTADO = 'RJ
+
+WHERE CDCOMPRADOR = 3;
+
+
+#### Resposta do exercício 12:
+
+UPDATE OFERTA
+
+SET VLORFERTA = 101000
+
+WHERE CDCOMPRADOR = 2 AND CDIMOVEL = 4;
+
+
+#### Resposta do exercício 13:
+
+DELETE FROM OFERTA
+
+WHERE CDCOMPRADOR = 3 AND CDIMOVEL = 1;
+
+
+#### Resposta do exercício 14:
+
+DELE FROM CIDADE
+
+WHERE CDCIDADE = 3 AND SGESTADO = 'SP';
+
+
+#### Último exercício da parte I(15):
+
+INSERT INTO FAIXA_IMOVEL VALUES (4, 'BAIXO', 230, 230000);
+
+INSERT INTO FAIXA_IMOVEL VALUES (5, 'MÉDIO', 2300, 320000);
+
+FIM!
