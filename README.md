@@ -71,3 +71,5 @@ Automóvel x Cliente = 1:n;
 
 #### Resposta:
 Generalizando, todas as relações n:n, dentre as quais existem essa condição: Gênero x Filme & Locação x Filme (Exercício 1, Capítulo 2), Imóvel x Estado (Exercício 2, Capítulo 2) e Produto x Pedido (Exercício 3, Capítulo 2), devem obedecer a Primeira Forma Normal, pois uma relação n:n deve virar duas relações 1:n sendo intermediada por uma tabela Gênero_Filme/Locação_Filme/Imóvel_Estado/Produto_Pedido, por exemplo, para evitar valores repetidos.
+
+### Capítulo 4: Criando um banco de dados
